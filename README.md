@@ -1,5 +1,4 @@
-equal4
-======
+# equal4
 
 [![Build Status](https://cloud.drone.io/api/badges/danil/equal4/status.svg)](https://cloud.drone.io/danil/equal4)
 [![Go Reference](https://pkg.go.dev/badge/github.com/danil/equal4.svg)](https://pkg.go.dev/github.com/danil/equal4)
@@ -8,13 +7,11 @@ Comparison of an error messages for Go.
 Source files are distributed under the BSD-style license
 found in the [LICENSE](./LICENSE) file.
 
-Install
--------
+## Install
 
-    go get github.com/danil/equal4@v0.13.0
+    go get github.com/danil/equal4@v0.0.13
 
-Usage
------
+## Usage
 
 ```go
 package main
