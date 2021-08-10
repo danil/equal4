@@ -57,7 +57,7 @@ func TestErrorEqual(t *testing.T) {
 			t.Parallel()
 			linkToExample := fmt.Sprintf("%s:%d", testFile, tc.line)
 
-			ok := equal4.ErrorEqual(tc.errors[0], tc.errors[1])
+			ok := equal4.EqualErrors(tc.errors[0], tc.errors[1])
 			if ok != tc.expected {
 				t.Errorf("unexpected error equality, expected: %t, recieved: %t %s", tc.expected, ok, linkToExample)
 			}

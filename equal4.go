@@ -10,7 +10,7 @@ import (
 	"strings"
 )
 
-func ErrorEqual(err, err2 error) bool {
+func EqualErrors(err, err2 error) bool {
 	if err != nil && err2 == nil {
 		return false
 	}
