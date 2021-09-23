@@ -1,4 +1,4 @@
-# equal4
+# equal4: DEPRECATED. Instead you can use `fmt.Sprint(err1) == fmt.Sprint(err2)`.
 
 [![Build Status](https://cloud.drone.io/api/badges/danil/equal4/status.svg)](https://cloud.drone.io/danil/equal4)
 [![Go Reference](https://pkg.go.dev/badge/github.com/danil/equal4.svg)](https://pkg.go.dev/github.com/danil/equal4)
@@ -9,7 +9,7 @@ found in the [LICENSE](./LICENSE) file.
 
 ## Install
 
-    go get github.com/danil/equal4@v0.0.13
+    go get github.com/danil/equal4@v0.0.15
 
 ## Usage
 
